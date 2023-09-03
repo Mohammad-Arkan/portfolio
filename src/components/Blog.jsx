@@ -11,7 +11,8 @@ const Blog = () => {
         {sectionTitle("My Blogs")}
         <div className="flex flex-wrap mt-14 justify-center gap-10 mx-5 lg:mx-10">
           <div
-            data-aos="fade-down-right"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-5 pt-5">
               <img src={github} alt="github" className="rounded-xl" />
@@ -28,7 +29,8 @@ const Blog = () => {
             </div>
           </div>
           <div
-            data-aos="fade-down-left"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-5 pt-5">
               <img src={reactjs} alt="reacjs" className="rounded-xl" />
