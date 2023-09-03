@@ -29,7 +29,7 @@ const Projects = () => {
               <span className="font-semibold">Technologies:</span>MongoDB,
               Expressjs, Reactjs, Axios, Tanstack Query, Nodejs, JWT
             </p>
-            <div className="space-x-3">
+            <div className="flex flex-wrap gap-3">
               <Link
                 to={"https://art-oasis.web.app"}
                 className="btn btn-sm btn-outline">
@@ -111,7 +111,7 @@ const Projects = () => {
               React Router, Firebase, Bootstrap, Expressjs, MongoDB, Nodejs
             </p>
 
-            <div className="space-x-3">
+            <div className="flex flex-wrap gap-3">
               <Link
                 to={"https://chef-recipe-7a26f.web.app"}
                 className="btn btn-sm btn-outline">

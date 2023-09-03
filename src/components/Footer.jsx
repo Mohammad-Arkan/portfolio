@@ -29,19 +29,17 @@ export const Footer = () => {
       </div>
       <div>
         <div className="grid grid-flow-col gap-4 text-2xl">
-          <Link>
+          <Link to={"mailto:zihadulislam066@gmail.com"}>
             <BiLogoGmail />
           </Link>
-          <Link>
-            <FaFacebookMessenger />
-          </Link>
-          <Link>
+
+          <Link to={"https://www.linkedin.com/in/dev-zihad"}>
             <FaLinkedin />
           </Link>
-          <Link>
+          <Link to={"https://github.com/zihaaad"}>
             <FaGithub />
           </Link>
-          <Link>
+          <Link to={"https://wa.me/8801871332066"}>
             <IoLogoWhatsapp />
           </Link>
         </div>

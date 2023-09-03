@@ -39,7 +39,9 @@ const About = () => {
                 <BiLogoGmail />
                 Mail
               </Link>
-              <Link to={""} className="btn btn-sm">
+              <Link
+                to={"https://www.linkedin.com/in/dev-zihad"}
+                className="btn btn-sm">
                 <FaLinkedin />
                 LinkedIn
               </Link>
@@ -47,7 +49,7 @@ const About = () => {
                 <FaGithub />
                 Github
               </Link>
-              <Link className="btn btn-sm">
+              <Link to={"https://wa.me/8801871332066"} className="btn btn-sm">
                 <IoLogoWhatsapp />
                 Whatsapp
               </Link>
