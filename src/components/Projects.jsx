@@ -1,4 +1,3 @@
-import React from "react";
 import artOasis from "../assets/art-oasis.png";
 import toyMarket from "../assets/toy-market.png";
 import chefRecipe from "../assets/chef-recipe.png";

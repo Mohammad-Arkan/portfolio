@@ -1,6 +1,6 @@
-import React from "react";
+
 import {sectionTitle} from "../utilities/utils";
-import img from "../assets/zihaaad.jpg";
+import img from "../assets/profile.png";
 import {BiLogoGmail} from "react-icons/bi";
 import {FaLinkedin, FaGithub} from "react-icons/fa";
 import {IoLogoWhatsapp} from "react-icons/io";
@@ -21,20 +21,21 @@ const About = () => {
             data-aos="zoom-out-left"
             className="lg:flex flex-col justify-center space-y-5 lg:w-1/2">
             <h3 className="text-3xl font-semibold mt-5 lg:mt-0">
-              I'm Zihadul Islam
+              I&apos;m Md.Arkan
             </h3>
-            <p>
+            {/* <p>
               A Full Stack Web Developer. Specialist In MERN Stack. My Weapons
               are HTML, CSS, JavaScript, Reactjs, Nodejs, Expressjs, MongoDB,
               and Firebase.
-            </p>
+            </p> */}
+            <p>A passionate and experienced Marn-Stack Developer with a strong background in creating dynamic and responsive web applications. I thrive in the fast-paced world of technology and love to take on new challenges that push the boundaries of what&apos;s possible.</p>
             <p>
               <span className="font-semibold">Email: </span>
-              zihadulislam066@gmail.com
+              a.r.khan.coxyboys@gmail.com
             </p>
             <div className="flex flex-wrap gap-2">
               <Link
-                to={"mailto:zihadulislam066@gmail.com"}
+                to={"https://mail.google.com/mail/u/0/#inbox"}
                 className="btn btn-sm">
                 <BiLogoGmail />
                 Mail
@@ -45,11 +46,11 @@ const About = () => {
                 <FaLinkedin />
                 LinkedIn
               </Link>
-              <Link to={"https://github.com/zihaaad"} className="btn btn-sm">
+              <Link to={"https://github.com/Mohammad-Arkan"} className="btn btn-sm">
                 <FaGithub />
                 Github
               </Link>
-              <Link to={"https://wa.me/8801871332066"} className="btn btn-sm">
+              <Link to={"https://web.whatsapp.com/"} className="btn btn-sm">
                 <IoLogoWhatsapp />
                 Whatsapp
               </Link>

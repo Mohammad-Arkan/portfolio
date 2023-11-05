@@ -26,6 +26,9 @@ const Skills = () => {
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> React.js
                   </span>
+                  <span className="inline-flex items-center gap-1">
+                    <VscVerifiedFilled /> API Integration
+                  </span>
                 </div>
                 <div className="flex flex-col gap-2 font-semibold text-xl">
                   <span className="inline-flex items-center gap-1">
@@ -36,6 +39,9 @@ const Skills = () => {
                   </span>
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> MongoDB
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <VscVerifiedFilled /> WordPress
                   </span>
                 </div>
               </div>
@@ -59,6 +65,9 @@ const Skills = () => {
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Tailwindcss
                   </span>
+                  <span className="inline-flex items-center gap-1">
+                    <VscVerifiedFilled /> Daisyui
+                  </span>
                 </div>
                 <div className="flex flex-col gap-2 font-semibold text-xl">
                   <span className="inline-flex items-center gap-1">
@@ -68,7 +77,10 @@ const Skills = () => {
                     <VscVerifiedFilled /> Firebase
                   </span>
                   <span className="inline-flex items-center gap-1">
-                    <VscVerifiedFilled /> AWS
+                    <VscVerifiedFilled />VS code
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <VscVerifiedFilled /> Netlify
                   </span>
                 </div>
               </div>
