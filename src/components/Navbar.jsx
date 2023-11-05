@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-
+import logo from '../assets/logo.png';
 const Navbar = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme")
@@ -64,7 +64,9 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost flex items-center normal-case text-xl">
-          <img src="/icon.png" width={40} alt="" />
+          <img src={logo} width={80} alt="" />
+          {/* <img src="logo"width={40} alt="" /> */}
+          {/* <img src="/icon.png" width={40} alt="" /> */}
           Developer
         </a>
       </div>
