@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import logo from '../assets/logo.png';
+import logo from '../assets/elementor.png';
 const Navbar = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme")
@@ -39,7 +39,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 container mx-auto">
+    <div className="navbar bg-base-100 container mx-auto mt-5">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -63,11 +63,12 @@ const Navbar = () => {
             {navItems}
           </ul>
         </div>
-        <a className="btn btn-ghost flex items-center normal-case text-xl">
+        <a className="btn btn-ghost flex items-center normal-case text-xl -mt-8">
           <img src={logo} width={80} alt="" />
           {/* <img src="logo"width={40} alt="" /> */}
           {/* <img src="/icon.png" width={40} alt="" /> */}
-          Developer
+          {/* Developer */}
+          Programmer
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
