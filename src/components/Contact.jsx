@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import  {useRef} from "react";
 import emailjs from "@emailjs/browser";
 import {sectionTitle} from "../utilities/utils";
 import Swal from "sweetalert2";
@@ -60,7 +60,7 @@ const Contact = () => {
             <input
               type="text"
               name="user_name"
-              placeholder="zihaaad"
+              placeholder="Md. Arkan"
               className="input input-bordered"
             />
           </div>

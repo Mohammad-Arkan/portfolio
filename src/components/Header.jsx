@@ -1,7 +1,7 @@
 import img from "../assets/profile.png";
 import {Typewriter} from "react-simple-typewriter";
 import {GiCometSpark} from "react-icons/gi";
-import resume from "../assets/Zihadul Islam_Full Stack Developer.pdf";
+// import resume from "../assets/Zihadul Islam_Full Stack Developer.pdf";
 import cv from "../assets/cv_of_md.Arkan.pdf"
 
 const Header = () => {

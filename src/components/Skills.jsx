@@ -1,4 +1,4 @@
-import React from "react";
+
 import {VscVerifiedFilled} from "react-icons/vsc";
 import {sectionTitle} from "../utilities/utils";
 
