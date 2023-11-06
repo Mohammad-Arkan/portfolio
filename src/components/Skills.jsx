@@ -70,14 +70,14 @@ const Skills = () => {
                   </span>
                 </div>
                 <div className="flex flex-col gap-2 font-semibold text-xl">
-                  <span className="inline-flex items-center gap-1">
-                    <VscVerifiedFilled /> Vercel
+                <span className="inline-flex items-center gap-1">
+                    <VscVerifiedFilled />VS code
                   </span>
-                  <span className="inline-flex items-center gap-1">
+                <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Firebase
                   </span>
                   <span className="inline-flex items-center gap-1">
-                    <VscVerifiedFilled />VS code
+                    <VscVerifiedFilled /> Vercel
                   </span>
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Netlify
