@@ -50,7 +50,7 @@ const Header = () => {
       <div className="flex justify-center mt-5 lg:mt-0">
         <img
           width={300}
-          className="rounded-full shadow-lg"
+          className="shadow-lg"
           src={img}
           alt="zihadul islam"
         />

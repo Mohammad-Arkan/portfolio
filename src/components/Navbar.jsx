@@ -22,7 +22,7 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a href="#root">Main</a>
+        <a href="#root">Home</a>
       </li>
       <li>
         <a href="#skills">Skills</a>

@@ -24,7 +24,7 @@ const Blog = () => {
                 improvements to searching code on GitHub. We want to ...
               </p>
               <div className="card-actions">
-                <button className="btn btn-primary btn-sm">Read Blog</button>
+                <button className="btn btn-primary bg-blue-400 hover:bg-blue-500 btn-sm border-none">Read Blog</button>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Blog = () => {
                 the UI (user interface) that ...
               </p>
               <div className="card-actions">
-                <button className="btn btn-primary btn-sm">Read Blog</button>
+                <button className="btn btn-primary bg-blue-400 hover:bg-blue-500 btn-sm border-none">Read Blog</button>
               </div>
             </div>
           </div>
