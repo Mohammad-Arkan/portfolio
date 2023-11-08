@@ -86,7 +86,7 @@ const Contact = () => {
                                 </div>
                             </div> */}
                             <div className="relative">
-                              <input type="submit" value="Submit" className="bg-blue-500 h-11 text-white rounded-md px-2 py-2 w-full disabled:bg-blue-400"/>
+                              <input type="submit" value="Submit" className=" bg-gradient-to-r from-blue-400 to-blue-500  h-11 text-white rounded-md px-2 py-2 w-full disabled:bg-blue-400"/>
                                 {/* <button type="submit" className="bg-blue-500 h-11 text-white rounded-md px-2 py-2 w-full disabled:bg-blue-400"> </button> */}
                             </div>
                         </form >
