@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-8/12 mx-auto bg-transparent bg-gray-100 dark:bg-gray-800">
+    <div  id="contact" className=" w-8/12 mx-auto bg-transparent bg-gray-100 dark:bg-gray-800">
     <div className="w-8/12 flex">
         {/* <Lottie animationData={animation}></Lottie> */}
     </div>
