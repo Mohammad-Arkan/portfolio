@@ -63,8 +63,8 @@ const Navbar = () => {
             {navItems}
           </ul>
         </div>
-        <a className="btn btn-ghost flex items-center normal-case text-xl -mt-8">
-          <img src={logo} width={80} alt="" />
+        <a className="btn btn-ghost flex items-center normal-case text-xl -mt-8 pointer-events-none">
+          <img src={logo} width={80} alt=""/>
           {/* <img src="logo"width={40} alt="" /> */}
           {/* <img src="/icon.png" width={40} alt="" /> */}
           {/* Developer */}

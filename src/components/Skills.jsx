@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <div id="skills">
-        {sectionTitle("My Skills")}
+        {sectionTitle("My background")}
         <div className="flex flex-wrap mt-[4.5rem] justify-center gap-10 lg:gap-20 pb-10">
           <div
             data-aos="fade-down-right"
@@ -17,9 +17,9 @@ const Skills = () => {
               </h2>
               <div className="flex gap-20 justify-center">
                 <div className="flex flex-col gap-2 font-semibold text-xl">
-                  <span className="inline-flex items-center gap-1">
+                  {/* <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> HTML, CSS
-                  </span>
+                  </span> */}
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> JavaScript
                   </span>
@@ -27,7 +27,7 @@ const Skills = () => {
                     <VscVerifiedFilled /> React.js
                   </span>
                   <span className="inline-flex items-center gap-1">
-                    <VscVerifiedFilled /> API Integration
+                    <VscVerifiedFilled /> MongoDB
                   </span>
                 </div>
                 <div className="flex flex-col gap-2 font-semibold text-xl">
@@ -37,9 +37,9 @@ const Skills = () => {
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Express.js
                   </span>
-                  <span className="inline-flex items-center gap-1">
+                  {/* <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> MongoDB
-                  </span>
+                  </span> */}
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> WordPress
                   </span>
@@ -65,14 +65,14 @@ const Skills = () => {
                   <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Tailwindcss
                   </span>
-                  <span className="inline-flex items-center gap-1">
+                  {/* <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Daisyui
-                  </span>
+                  </span> */}
                 </div>
                 <div className="flex flex-col gap-2 font-semibold text-xl">
-                <span className="inline-flex items-center gap-1">
+                {/* <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled />VS code
-                  </span>
+                  </span> */}
                 <span className="inline-flex items-center gap-1">
                     <VscVerifiedFilled /> Firebase
                   </span>
